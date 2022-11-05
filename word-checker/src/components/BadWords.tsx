@@ -19,7 +19,7 @@ const BadWords = ({ checkText = "" }) => {
     return <>An error has occured: " + {error}</>;
   }
 
-  if (data.length > 0) return <>Non-english words: {data.join(" ")}</>;
+  if (data.length > 0) return <>Non-english words: {data.join(", ")}</>;
   else return <></>;
 };
 
